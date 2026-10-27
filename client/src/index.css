@@ -1,0 +1,40 @@
+/* IMovies brand tokens */
+:root {
+  --ink: #202024;
+  --ink-2: #29282b;
+  --ink-3: #353338;
+  --line: rgba(244, 235, 221, 0.12);
+  --line-2: rgba(244, 235, 221, 0.22);
+  --text: #F4EBDD;
+  --muted: #b9b0a3;
+  --curtain: #B32635;
+  --curtain-d: #84202b;
+  --brass: #E8DDCA;
+  --brass-d: #C9B99F;
+  --paper: #F4EBDD;
+  --paper-ink: #202024;
+  --ok: #52c28a;
+  --warn: #f0a63a;
+  --bad: #ef5b5b;
+  --font-display: 'DM Serif Display', Georgia, serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+}
+[data-bs-theme='dark'] {
+  --bs-body-bg: var(--ink);
+  --bs-body-color: var(--text);
+  --bs-border-color: var(--line);
+  --bs-secondary-color: var(--muted);
+  --bs-body-font-family: var(--font-body);
+  --bs-link-color: var(--brass);
+  --bs-link-hover-color: #F4EBDD;
+}
+html { scroll-behavior: smooth; }
+body { background: var(--ink); color: var(--text); font-family: var(--font-body); }
+h1,h2,h3,h4,h5,.display-font { font-family: var(--font-display); }
+.btn-primary,.btn-danger { --bs-btn-bg: var(--curtain); --bs-btn-border-color: var(--curtain); --bs-btn-hover-bg: var(--curtain-d); --bs-btn-hover-border-color: var(--curtain-d); }
+.btn-outline-light { --bs-btn-color: var(--text); --bs-btn-border-color: var(--line-2); --bs-btn-hover-bg: var(--paper); --bs-btn-hover-color: var(--paper-ink); }
+.card,.modal-content,.dropdown-menu { background-color: var(--ink-2); color: var(--text); border-color: var(--line); }
+.form-control,.form-select { color: var(--text); background-color: var(--ink-2); border-color: var(--line-2); }
+.form-control:focus,.form-select:focus { color: var(--text); background-color: var(--ink-2); border-color: var(--brass); box-shadow: 0 0 0 .2rem rgba(232,221,202,.18); }
+a { color: var(--brass); } a:hover { color: var(--paper); }
+::selection { background: var(--curtain); color: var(--paper); }
