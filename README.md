@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # IMovies — Cinema Booking Platform
 
 IMovies is a full-stack MERN cinema booking application where users can explore movies, browse showtimes, select seats, complete simulated payments, and manage their digital tickets.
@@ -209,3 +210,6 @@ Potential enhancements include:
 - An admin seat-map editor
 - Automated API and frontend tests
 - Integration with a real payment gateway
+=======
+# iMovies
+>>>>>>> origin/main
